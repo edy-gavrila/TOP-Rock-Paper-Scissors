@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="display">
+        <h1>A long time ago, in a galaxy far away, there was only War...</h1>
+        <h2>Until everybody had enough of killing each other</h2>
+        <h3>
+          ...and decided to solve their problems using a more...paceful aproach:
+        </h3>
+        <h1 id="lastH1">Rock Paper Scissors!</h1>
+
+        <div class="game">
+          <h1>Now it's only you against the evil machine...</h1>
+          <h2 id = "msg">Good luck, Young Padawan!</h2>
+          <h2>Choose your weapon!</h2>
+          <div class="btn-container">
+            <button class = "hand" hand="Rock"><i class="far fa-2x fa-hand-rock"></i></button>
+            <button class = "hand" hand="Paper"><i class="far fa-2x fa-hand-paper"></i></button>
+            <button class = "hand" hand="Scissors"><i class="far fa-2x fa-hand-scissors"></i></button>
+          </div>
+          <div class="results">&nbsp;</div>
+          <button class="reset">Try Again!</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
