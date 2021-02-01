@@ -83,6 +83,7 @@ body {
 }
 
 .reset {
+  display: none;
   margin-top: 30px;
   padding: 20px;
   background-color: yellow;

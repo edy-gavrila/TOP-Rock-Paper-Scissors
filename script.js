@@ -75,6 +75,7 @@ function reset() {
   playerScore = 0;
   results.innerText = "\u00A0"; //&nbsp;
   enableButtons();
+  resetBtn.style.display = "none";
 }
 
 function disableButtons() {
@@ -109,10 +110,12 @@ btns.forEach((btn) => {
       msg.style.color = "green";
       msg.innerText = "You Win";
       disableButtons();
+      resetBtn.style.display = "block";
     } else if (computerScore >= 5 && playerScore !== computerScore) {
       msg.style.color = "red";
       msg.innerText = "You Lose";
       disableButtons();
+      resetBtn.style.display = "block";
     }
   });
 });
